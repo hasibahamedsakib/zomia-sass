@@ -29,21 +29,21 @@ const HeroSection = () => {
 
         {/* hero image */}
         <div className="flex-1 ">
-          <div className="relative lg:-left-[120px] lg:w-[800px]">
-            <div className="absolute -top-20 lg:left-[295px] animation-bounce">
+          <div className="relative md:-left-[120px] lg:w-[800px] md:w-[600px]">
+            <div className="absolute hidden md:block -top-20 md:left-[295px] animation-bounce">
               <img src="/photo/s3.png" alt="" />
             </div>
-            <div className="absolute lg:-top-28 lg:right-52 animation-spin">
+            <div className="absolute hidden md:block md:-top-28 md:right-52 animation-spin">
               <img src="/photo/s4.png" alt="" />
             </div>
-            <div className="absolute lg:top-0 lg:right-2 animation-bounce">
+            <div className="absolute hidden md:block md:top-0 md:right-2 animation-bounce">
               <img src="/photo/s5.png" alt="" />
             </div>
 
             <img
               src="/photo/s6.png"
               alt="website-hero_image"
-              className="w-full"
+              className="w-full object-cover"
             />
           </div>
         </div>

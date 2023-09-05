@@ -92,17 +92,7 @@ const Navbar = () => {
             >
               Services
             </NavLink>
-            <NavLink
-              className={`${({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
-              to="/portfolio"
-            >
-              Portfolio
-            </NavLink>
+
             <NavLink
               className={`${({ isActive, isPending }) =>
                 isPending

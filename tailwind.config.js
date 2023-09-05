@@ -2,10 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
-    fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-      rubik: ["Rubik", "sans-serif"],
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
+      },
+      colors: {
+        subTitle: ["#1d2124"],
+        Gray: ["#646464"],
+        purple: ["#5a49f8"],
+      },
     },
   },
   plugins: [],
