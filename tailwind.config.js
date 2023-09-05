@@ -8,6 +8,7 @@ export default {
         rubik: ["Rubik", "sans-serif"],
       },
       colors: {
+        title: ["#1d2124"],
         subTitle: ["#1d2124"],
         Gray: ["#646464"],
         purple: ["#5a49f8"],
