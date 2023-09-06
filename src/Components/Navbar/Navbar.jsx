@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav
       className={` w-full lg:fixed   z-10  lg:px-10 lg:py-2  transition-all duration-300 ${navbarBgColor} `}
     >
-      <div className="container">
+      <div className="lg:container">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* website Logo */}
           <div className=" w-48 lg:w-40   p-4 ">
@@ -65,7 +65,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block`}
               to="/"
             >
               Home
@@ -76,7 +76,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
               to="/about"
             >
               About
@@ -87,7 +87,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
               to="/services"
             >
               Services
@@ -99,7 +99,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
               to="/page"
             >
               Page
@@ -110,7 +110,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
               to="/blog"
             >
               Blog
@@ -121,7 +121,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
               to="/contact"
             >
               Contact
