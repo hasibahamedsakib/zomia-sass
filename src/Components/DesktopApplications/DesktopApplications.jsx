@@ -3,10 +3,10 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const DesktopApplications = () => {
   return (
-    <div className="bg-[#fafafa] py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
+    <div className="py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
       <div className="container flex items-center flex-col-reverse lg:flex-row-reverse justify-between p-3 md:p-5 ">
         {/* section image */}
-        <div className="flex-1 pb-10 md:pb-0">
+        <div className="flex-1 pb-5 md:pb-0 pt-10 lg:pt-0">
           <div className="aw-12/12 animation-bounce">
             <img src="/photo/Saas-Landing-8.png" className="" alt="" />
           </div>
@@ -29,8 +29,8 @@ const DesktopApplications = () => {
           </p>
 
           <div className="space-y-6 pb-5">
-            <div className="group flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0 items-center lg:items-top text-lg ">
-              <BsFillCheckCircleFill className="w-6 h-6 text-[#ff930e] group-hover:text-[#5a49f8] transition-all duration-300" />
+            <div className="group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg ">
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:pt-2" />
 
               <div className=" text-center lg:text-left ">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
@@ -43,8 +43,8 @@ const DesktopApplications = () => {
               </div>
             </div>
 
-            <div className=" group flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0  lg:items-top text-lg text-Gray-0 ">
-              <BsFillCheckCircleFill className="w-6 h-6 text-[#ff930e] group-hover:text-[#5a49f8] transition-all duration-300" />
+            <div className=" group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg text-Gray-0 ">
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:pt-2" />
 
               <div className="text-center lg:text-left">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
