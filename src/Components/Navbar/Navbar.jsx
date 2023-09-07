@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav
       className={` w-full lg:fixed   z-10  lg:px-10 lg:py-2  transition-all duration-300 ${navbarBgColor} `}
     >
-      <div className="lg:container sm:mx-auto ">
+      <div className="Container ">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* website Logo */}
           <div className=" w-48 lg:w-40   p-4 ">

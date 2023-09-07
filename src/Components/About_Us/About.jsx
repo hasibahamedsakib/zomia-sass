@@ -5,7 +5,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 const About = () => {
   return (
     <div className="bg-[#f7f7ff] py-5 lg:py-10 p-5 md:p-5">
-      <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 container">
+      <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 Container">
         {/* About Image  */}
         <div className="flex-1 ">
           <img

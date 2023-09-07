@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 const HeroSection = () => {
   return (
     <div className="bg-[url('/photo/hero-bg.jpg')] bg-center py-10 bg-cover h-[900px]">
-      <div className="flex items-center lg:flex-row flex-col  p-3 md:p-5 container py-5 lg:my-40 space-y-6 md:space-y-8 lg:space-y-0">
+      <div className="flex items-center lg:flex-row flex-col  p-3 md:p-5 Container py-5 lg:my-40 space-y-6 md:space-y-8 lg:space-y-0">
         {/* hero text */}
         <div className="relative lg:-left-[60px] space-y-4 flex-1 text-white lg:w-[550px]">
           <div className="flex space-x-4 items-center lg:w-[550px]">

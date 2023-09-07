@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const OurOffer = () => {
   return (
     <div className="bg-[#fafafa]  pb-5 py-5  lg:py-16 p-3 md:p-5 text-center">
-      <div className="container">
+      <div className="Container">
         {/* section heading */}
         <div className="flex items-center flex-col space-y-4 ">
           <SectionTitle text="What We Offer" isBoth={true} />

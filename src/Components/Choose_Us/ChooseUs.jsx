@@ -4,7 +4,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const ChooseUs = () => {
   return (
     <div className="bg-[#f8f8ff]">
-      <div className="container py-5 lg:py-20 p-3 md:p-5">
+      <div className="Container py-5 lg:py-20 p-3 md:p-5">
         <div className="text-center space-y-4">
           <SectionTitle text="WHY CHOOSE US" />
           <h1 className="text-3xl md:text-4xl lg:text-5xl text-slate-900 font-bold">

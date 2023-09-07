@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Testimonials = () => {
   return (
     <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 px-2 lg:py-20 ">
-      <div className="container flex items-center lg:flex-row flex-col justify-between  p-3 md:p-5">
+      <div className="Container flex items-center lg:flex-row flex-col justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
         <div className="flex-1 pb-10 md:pb-0">
           {/* content-1 */}

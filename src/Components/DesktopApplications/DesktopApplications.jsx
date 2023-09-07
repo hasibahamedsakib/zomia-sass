@@ -4,7 +4,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const DesktopApplications = () => {
   return (
     <div className="py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
-      <div className="container flex items-center flex-col-reverse lg:flex-row-reverse justify-between p-3 md:p-5 ">
+      <div className="Container flex items-center flex-col-reverse lg:flex-row-reverse justify-between p-3 md:p-5 ">
         {/* section image */}
         <div className="flex-1 pb-5 md:pb-0 pt-10 lg:pt-0">
           <div className="aw-12/12 animation-bounce">
@@ -28,7 +28,7 @@ const DesktopApplications = () => {
           {/* Section  content */}
           <div className="space-y-6 pb-5">
             <div className="group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg ">
-              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-purple-0 group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
 
               <div className=" text-center lg:text-left ">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
@@ -42,7 +42,7 @@ const DesktopApplications = () => {
             </div>
 
             <div className=" group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg text-Gray-0 ">
-              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-purple-0 group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
 
               <div className="text-center lg:text-left">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">

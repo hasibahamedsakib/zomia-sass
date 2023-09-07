@@ -5,7 +5,7 @@ import { DiAndroid } from "react-icons/di";
 const Description = () => {
   return (
     <div className=" py-5 lg:py-10 p-3 md:p-5">
-      <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 container">
+      <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 Container">
         <div className="space-y-4 flex-1 p-3">
           {/* Section Title */}
           <SectionTitle text="description" />

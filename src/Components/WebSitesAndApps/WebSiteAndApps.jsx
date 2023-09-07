@@ -5,7 +5,7 @@ import { FaBullhorn } from "react-icons/fa";
 const WebSiteAndApps = () => {
   return (
     <div className="bg-[#fafafa] py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
-      <div className="container flex items-center lg:flex-row flex-col justify-between p-3 md:p-5 ">
+      <div className="Container flex items-center lg:flex-row flex-col justify-between p-3 md:p-5 ">
         {/* section image */}
         <div className="flex-1 pb-10 md:pb-0">
           <div className="relative">
@@ -43,7 +43,7 @@ const WebSiteAndApps = () => {
 
           <div className="space-y-6 pb-5">
             <div className=" flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0 items-center lg:items-top text-lg ">
-              <FaBullhorn className="w-10 h-10 text-[#5a49f8]" />
+              <FaBullhorn className="w-10 h-10 text-purple-0" />
 
               <div className="text-center lg:text-left ">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
@@ -57,7 +57,7 @@ const WebSiteAndApps = () => {
             </div>
 
             <div className="flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0 items-center lg:items-top text-lg text-Gray-0 ">
-              <BsGift className="w-10 h-10 text-[#5a49f8] " />
+              <BsGift className="w-10 h-10 text-purple-0 " />
 
               <div className="text-center lg:text-left">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
