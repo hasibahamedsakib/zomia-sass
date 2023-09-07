@@ -10,7 +10,7 @@ const Blog = () => {
         {/* section heading  */}
         <div className="flex items-center flex-col space-y-4 ">
           <SectionTitle text="Our Blog" isBoth={true} />
-          <h1 className="text-2xl md:text-4xl lg:text-5xl text-subTitle-0 font-bold">
+          <h1 className="text-2xl md:text-4xl lg:text-[40px] text-subTitle-0 font-bold">
             The Latest from our Blog
           </h1>
           <p className=" text-Gray-0 text-center ">
@@ -22,12 +22,12 @@ const Blog = () => {
 
         <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 pt-10 lg:pt-20 gap-6">
           {/* Blog One */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-300 scale-[1.02] hover:scale-100 hover:shadow-lg">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img className="rounded-t-lg" src="/photo/blog1.png" alt="" />
             </Link>
 
-            <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
+            <div className="flex justify-between items-center  py-5 mx-5 border-b-2 ">
               <span className="flex items-center space-x-2  ">
                 <BiCalendar className="text-purple-0" />
                 <p className="hover:text-purple-0">07, March, 2023</p>
@@ -40,7 +40,7 @@ const Blog = () => {
               </span>
             </div>
 
-            <div className="p-5 text-left">
+            <div className="p-6 text-left">
               <Link to="#">
                 <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
                   Noteworthy technology acquisitions 2021
@@ -60,7 +60,7 @@ const Blog = () => {
             </div>
           </div>
           {/* Blog two */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-300">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img className="rounded-t-lg" src="/photo/blog2.png" alt="" />
             </Link>
@@ -78,7 +78,7 @@ const Blog = () => {
               </span>
             </div>
 
-            <div className="p-5 text-left">
+            <div className="p-6 text-left">
               <Link to="#">
                 <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
                   Overcame breeding or my concerns removing
@@ -98,13 +98,13 @@ const Blog = () => {
             </div>
           </div>
           {/* Blog three */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-300">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img className="rounded-t-lg" src="/photo/blog3.png" alt="" />
             </Link>
 
             <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
-              <span className="flex items-center space-x-2  ">
+              <span className="flex items-center space-x-2">
                 <BiCalendar className="text-purple-0" />
                 <p className="hover:text-purple-0">07, March, 2023</p>
               </span>
@@ -116,7 +116,7 @@ const Blog = () => {
               </span>
             </div>
 
-            <div className="p-5 text-left">
+            <div className="p-6 text-left">
               <Link to="#">
                 <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
                   Made neat an on be gave shoe nugh tore

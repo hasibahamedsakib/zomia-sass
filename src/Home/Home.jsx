@@ -5,6 +5,7 @@ import Meeting from "../Components/Meeting/Meeting";
 import OurOffer from "../Components/Our_Offer/OurOffer";
 import OurProcess from "../Components/Our_Process/OurProcess";
 import Testimonials from "../Components/Testimonials/Testimonials";
+import WeAreWorking from "../Components/We_Are_Working/WeAreWorking";
 import WebSiteAndApps from "../Components/WebSitesAndApps/WebSiteAndApps";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Meeting />
       <Testimonials />
       <Blog />
+      <WeAreWorking />
     </>
   );
 };
