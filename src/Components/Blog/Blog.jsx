@@ -24,7 +24,11 @@ const Blog = () => {
           {/* Blog One */}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
-              <img className="rounded-t-lg" src="/photo/blog1.png" alt="" />
+              <img
+                className="rounded-t-lg w-full"
+                src="/photo/blog1.png"
+                alt=""
+              />
             </Link>
 
             <div className="flex justify-between items-center  py-5 mx-5 border-b-2 ">
@@ -62,7 +66,11 @@ const Blog = () => {
           {/* Blog two */}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
-              <img className="rounded-t-lg" src="/photo/blog2.png" alt="" />
+              <img
+                className="rounded-t-lg w-full"
+                src="/photo/blog2.png"
+                alt=""
+              />
             </Link>
 
             <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
@@ -100,7 +108,11 @@ const Blog = () => {
           {/* Blog three */}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
-              <img className="rounded-t-lg" src="/photo/blog3.png" alt="" />
+              <img
+                className="rounded-t-lg w-full"
+                src="/photo/blog3.png"
+                alt=""
+              />
             </Link>
 
             <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
