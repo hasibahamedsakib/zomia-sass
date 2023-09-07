@@ -9,7 +9,7 @@ const OurProcess = () => {
         <h1 className="text-2xl md:text-4xl lg:text-5xl text-subTitle-0 font-bold">
           How IT Works
         </h1>
-        <p className=" text-[#646464] text-center ">
+        <p className=" text-Gray-0 text-center ">
           Sit amet consectetur adipiscing elite sed eiusmod tempor incididunt ut
           labore <br /> pendisse ultrices gravidaisus commodo viva aliqua
         </p>
@@ -27,7 +27,7 @@ const OurProcess = () => {
             <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
               Info Collection
             </h2>
-            <p className="text-[#646464] text-center text-base">
+            <p className="text-Gray-0 text-center text-base">
               Proactively unleash end ends reward relationships through done
             </p>
           </div>
@@ -43,7 +43,7 @@ const OurProcess = () => {
             <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
               Soft Developed
             </h2>
-            <p className="text-[#646464] text-center text-base">
+            <p className="text-Gray-0 text-center text-base">
               Proactively unleash end ends reward relationships through done
             </p>
           </div>
@@ -58,7 +58,7 @@ const OurProcess = () => {
             <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
               Got Live Demo
             </h2>
-            <p className="text-[#646464] text-center text-base">
+            <p className="text-Gray-0 text-center text-base">
               Proactively unleash end ends reward relationships through done
             </p>
           </div>
