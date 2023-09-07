@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav
       className={` w-full lg:fixed   z-10  lg:px-10 lg:py-2  transition-all duration-300 ${navbarBgColor} `}
     >
-      <div className="lg:container mx-auto">
+      <div className="lg:container sm:mx-auto ">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* website Logo */}
           <div className=" w-48 lg:w-40   p-4 ">
@@ -134,7 +134,7 @@ const Navbar = () => {
               <FaSearch className=" group-hover:text-[#5a49f8] w-5 h-5 text-white " />
             </div>
 
-            <button className="btn-main">Sign Up</button>
+            <button className="btn btn-main">Sign Up</button>
           </div>
         </div>
       </div>

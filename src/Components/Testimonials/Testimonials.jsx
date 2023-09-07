@@ -1,5 +1,5 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Testimonials = () => {
@@ -8,21 +8,80 @@ const Testimonials = () => {
       <div className="container flex items-center lg:flex-row flex-col justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
         <div className="flex-1 pb-10 md:pb-0">
-          <div className="w-[620px] h-10 border"></div>
+          {/* content-1 */}
+          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+            <div className="w-32">
+              <img src="/photo/Saas-Landing-13.png" alt="" className="w-full" />
+            </div>
+
+            <div className="lg:text-left ">
+              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+                Anowar, Zomia CEO
+              </h3>
+
+              <p className="text-sm md:text-base text-Gray-0  mb-4">
+                “Phosfluorescently e-enable front-end this Completely empower an
+                expanded”
+              </p>
+            </div>
+            <div className="absolute top-6 right-5">
+              <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
+            </div>
+          </div>
+          {/* content-2 */}
+          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
+            <div className="w-32">
+              <img src="/photo/Saas-Landing-12.png" alt="" className="w-full" />
+            </div>
+
+            <div>
+              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+                MD Atikul,Admin
+              </h3>
+
+              <p className="text-sm md:text-base text-Gray-0  mb-4">
+                “Phosfluorescently e-enable front-end this Completely empower an
+                expanded”
+              </p>
+            </div>
+            <div className="absolute top-6 right-5">
+              <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
+            </div>
+          </div>
+          {/* content-3 */}
+          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+            <div className="w-32">
+              <img src="/photo/Saas-Landing-14.png" alt="" className="w-full" />
+            </div>
+
+            <div>
+              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+                Benatha,Manager
+              </h3>
+
+              <p className="text-sm md:text-base text-Gray-0  mb-4">
+                “Phosfluorescently e-enable front-end this Completely empower an
+                expanded”
+              </p>
+            </div>
+            <div className="absolute top-6 right-5">
+              <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
+            </div>
+          </div>
         </div>
 
         {/* Section title and description */}
 
-        <div className="space-y-4 flex-1 p-3">
+        <div className="space-y-5 flex-1 p-3">
           {/* Section Title */}
           <section className="flex items-center ">
             <SectionTitle text="Testimonials" isBoth={false} />
           </section>
-          <h2 className="text-2xl md:text-3xl lg:text-[40px] leading-9 font-semibold text-title-0">
+          <h2 className="text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
             Zomia’s All Over The 23M+ Satisfied Customers
           </h2>
 
-          <p className=" text-Gray-0 pb-5 text-left">
+          <p className=" text-Gray-0 pb-6 text-left">
             Competently iterate enterprise core competencies through exceptional
             Phosfluorescently e-enable front-end data for economically sound
             teci Completely empower an expanded array of web services vis-a-vis
@@ -32,7 +91,7 @@ const Testimonials = () => {
 
           {/* Section Button */}
           <Link to="/">
-            <button className="btn-primary flex items-center justify-center space-x-2">
+            <button className="btn btn-secondary flex items-center justify-center space-x-2">
               Learn More <BsArrowRight className="h-5 w-5 ml-3" />
             </button>
           </Link>

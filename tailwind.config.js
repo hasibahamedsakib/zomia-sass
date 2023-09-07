@@ -15,6 +15,13 @@ export default {
       },
       boxShadow: {
         "3xl": "2px 10px 50px rgb(158 158 158 / 43%)",
+        bxl: "2px 10px 50px rgb(158 158 158 / 14%)",
+      },
+      padding: {
+        pxl: "30px 20px 15px 33px",
+      },
+      margin: {
+        mxl: "0 50px 30px 0",
       },
     },
   },

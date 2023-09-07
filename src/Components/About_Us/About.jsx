@@ -47,7 +47,7 @@ const About = () => {
             </span>
           </div>
           <Link to="/">
-            <button className="btn-main ">Learn More</button>
+            <button className="btn btn-main ">Learn More</button>
           </Link>
         </div>
       </div>

@@ -21,7 +21,7 @@ const HeroSection = () => {
           </p>
           {/* Hero Button  */}
           <Link to="/">
-            <button className="btn-primary flex items-center justify-center space-x-2">
+            <button className="btn btn-primary flex items-center justify-center space-x-2">
               Learn More <BsArrowRight className="h-5 w-5 ml-3" />
             </button>
           </Link>
