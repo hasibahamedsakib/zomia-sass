@@ -34,7 +34,7 @@ const OurProcess = () => {
         </div>
 
         {/* card two */}
-        <div className="relative p-3 lg:p-5 lg:before:bg-[url('/photo/Saas-Landing-4.png')] md:before:w-60 before:h-10 before:bg-no-repeat before:-right-40 before:top-10 before:absolute">
+        <div className="relative p-3 lg:p-5 lg:before:bg-[url('/photo/Saas-Landing-4.png')] lg:before:w-60 before:h-10 before:bg-no-repeat before:-right-40 before:top-10 before:absolute">
           <h2 className="bg-[url('/photo/Saas-Landing-1.png')] bg-no-repeat bg-center text-white text-2xl md:text-4xl p-10 font-bold">
             02
           </h2>

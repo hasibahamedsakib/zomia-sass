@@ -12,10 +12,8 @@ const DesktopApplications = () => {
           </div>
         </div>
 
-        {/* Section title and description */}
-
         <div className="space-y-4 flex-1 p-3 ">
-          {/* Section Title */}
+          {/* Section Title and description */}
           <section className="flex items-center ">
             <SectionTitle text="Desktop Applications" isBoth={false} />
           </section>
@@ -24,34 +22,34 @@ const DesktopApplications = () => {
           </h2>
 
           <p className="text-lg text-Gray-0 pb-5 text-left">
-            Energistically conceptualize clients-focused data and user-centric
-            process Energistically communicate installed base web
+            energetically conceptualize clients-focused data and user-centric
+            process energetically communicate installed base web
           </p>
-
+          {/* Section  content */}
           <div className="space-y-6 pb-5">
             <div className="group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg ">
-              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:pt-2" />
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
 
               <div className=" text-center lg:text-left ">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
                   Awesome Support
                 </p>
                 <p className="text-base text-Gray-0">
-                  Clients-focused data centric process energistically
+                  Clients-focused data centric process energetically <br />
                   communicate installed done.
                 </p>
               </div>
             </div>
 
             <div className=" group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg text-Gray-0 ">
-              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:pt-2" />
+              <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-[#5a49f8] group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
 
               <div className="text-center lg:text-left">
                 <p className="text-xl md:2xl font-semibold text-subTitle-0 pb-2">
                   Market Research
                 </p>
                 <p className="text-base text-Gray-0">
-                  Clients-focused data centric process energistically
+                  Clients-focused data centric process energetically <br />
                   communicate installed done.
                 </p>
               </div>
