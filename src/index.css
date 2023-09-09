@@ -11,10 +11,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Poppins", sans-serif;
+  @apply font-poppins;
 }
 p {
-  font-family: "Rubik", sans-serif;
+  @apply font-rubik;
 }
 /* container is everywhere. */
 .Container {
@@ -25,7 +25,7 @@ p {
 
 /* main button code. */
 .btn {
-  @apply font-semibold text-lg text-white rounded-full outline-none ease-in-out duration-300 px-4 py-2;
+  @apply font-semibold text-sm lg:text-lg text-white rounded-full outline-none ease-in-out duration-300 px-3 py-2;
 }
 .btn-main {
   @apply border lg:px-[35px] lg:py-[9px]  hover:text-purple-0 hover:bg-white;
@@ -35,6 +35,9 @@ p {
 }
 .btn-secondary {
   @apply lg:px-[35px] lg:py-[12px] bg-gradient-to-r from-[#533efe] to-[#740fd6] hover:from-[#740fd6] hover:to-[#533efe];
+}
+.btn-signUp {
+  @apply md:px-5 md:py-3 lg:px-[30px]  lg:py-[15px] bg-[#0066ff]  hover:bg-[#740FD6] rounded-md;
 }
 
 /* image Animation */
