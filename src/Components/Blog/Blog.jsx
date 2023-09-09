@@ -22,7 +22,7 @@ const Blog = () => {
 
         <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 pt-10 lg:pt-20 gap-6">
           {/* Blog One */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
+          <div className="max-w-sm mx-auto md:max-w-fit  bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img
                 className="rounded-t-lg w-full"
@@ -64,7 +64,7 @@ const Blog = () => {
             </div>
           </div>
           {/* Blog two */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
+          <div className="max-w-sm mx-auto md:max-w-md  bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img
                 className="rounded-t-lg w-full"
@@ -106,7 +106,7 @@ const Blog = () => {
             </div>
           </div>
           {/* Blog three */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
+          <div className="max-w-sm mx-auto md:max-w-fit  bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
             <Link to="#">
               <img
                 className="rounded-t-lg w-full"

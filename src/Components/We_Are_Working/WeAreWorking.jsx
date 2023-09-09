@@ -16,7 +16,7 @@ const WeAreWorking = () => {
       <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 pt-10 lg:pt-20 lg:pb-10 gap-6">
         {/* First Counter */}
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-[52px] text-[#ff3838] font-bold">
+          <h1 className="text-3xl md:text-4xl lg:text-[52px] text-[#ff3838] font-bold">
             <CountUp duration={5} end={85} />
             <span>k+</span>
           </h1>
@@ -26,7 +26,7 @@ const WeAreWorking = () => {
         </div>
         {/* Second Counter */}
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-[52px] text-[#5A49F8] font-bold">
+          <h1 className="text-3xl md:text-4xl lg:text-[52px] text-[#5A49F8] font-bold">
             <CountUp duration={4} end={285} />
           </h1>
           <h4 className="text-base md:text-lg lg:text-xl mt-5">
@@ -35,7 +35,7 @@ const WeAreWorking = () => {
         </div>
         {/* Third Counter */}
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-[52px] text-[#24B5FF] font-bold">
+          <h1 className="text-3xl md:text-4xl lg:text-[52px] text-[#24B5FF] font-bold">
             <CountUp duration={4.8} end={100} />
             <span>k+</span>
           </h1>
