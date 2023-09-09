@@ -12,6 +12,7 @@ export default {
         subTitle: ["#1d2124"],
         Gray: ["#646464"],
         purple: ["#5a49f8"],
+        slateBlue: ["#8776FA"],
       },
       boxShadow: {
         "3xl": "2px 10px 50px rgb(158 158 158 / 43%)",

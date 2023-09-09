@@ -11,7 +11,7 @@ const FooterForm = () => {
         </h1>
       </div>
       <div className=" ">
-        <form className="flex items-center space-x-5">
+        <form className="flex items-center space-x-2 md:space-x-5">
           <input
             placeholder="Enter Your Email"
             type="text"

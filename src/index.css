@@ -37,7 +37,7 @@ p {
   @apply lg:px-[35px] lg:py-[12px] bg-gradient-to-r from-[#533efe] to-[#740fd6] hover:from-[#740fd6] hover:to-[#533efe];
 }
 .btn-signUp {
-  @apply md:px-5 md:py-3 lg:px-[30px]  lg:py-[15px] bg-[#0066ff]  hover:bg-[#740FD6] rounded-md;
+  @apply md:px-5 md:py-5 lg:px-[30px]  lg:py-[15px] bg-[#0066ff]  hover:bg-[#740FD6] rounded-md;
 }
 
 /* image Animation */
