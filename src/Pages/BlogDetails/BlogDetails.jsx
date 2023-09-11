@@ -1,4 +1,5 @@
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import MoreDetails from "./MoreDetails";
 
 const BlogDetails = () => {
   return (
@@ -11,6 +12,9 @@ const BlogDetails = () => {
           <Breadcrumb text="Blog Details" />
         </div>
       </div>
+
+      {/* Blog More Details Page. */}
+      <MoreDetails />
     </>
   );
 };

@@ -108,29 +108,29 @@ const NavBarDemo = () => {
                 <BiChevronDown className="ml-1" />
               </span>
               <div className="absolute pt-4 lg:pt-7 z-20">
-                <ul className="shadow-lg hidden group-hover:block rounded-sm bg-white text-black w-60 text-left transition-all duration-500  text-base ">
+                <ul className="shadow-lg hidden group-hover:block rounded-sm bg-white text-black w-60 text-left transition-all duration-500 text-sm lg:text-base ">
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
-                    <li className="hover:ml-3 duration-300 ">
+                    <li className="hover:ml-3 duration-300  ">
                       <NavLink to="/about">ABOUT US</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
-                    <li className="hover:ml-3 duration-300 ">
+                    <li className="hover:ml-3 duration-300  ">
                       <NavLink to="/services">SERVICE</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
-                    <li className="hover:ml-3 duration-300 ">
+                    <li className="hover:ml-3 duration-300  ">
                       <NavLink to="/team">TEAM MEMBER</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
-                    <li className="hover:ml-3 duration-300 ">
+                    <li className="hover:ml-3 duration-300  ">
                       <NavLink to="/contact">CONTACT</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
-                    <li className="hover:ml-3 duration-300 ">
+                    <li className="hover:ml-3 duration-300  ">
                       <NavLink to="/faq">FAQ</NavLink>
                     </li>
                   </div>
@@ -152,7 +152,7 @@ const NavBarDemo = () => {
                 <BiChevronDown className="ml-1" />
               </span>
               <div className="absolute pt-4 lg:pt-7 z-20">
-                <ul className="shadow-lg hidden group-hover:block rounded-sm bg-white text-black w-60 text-left transition-all duration-500  text-base">
+                <ul className="shadow-lg hidden group-hover:block rounded-sm bg-white text-black w-60 text-left transition-all duration-500 text-sm lg:text-base">
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
                       <NavLink to="/blog_list">BLOG LIST</NavLink>

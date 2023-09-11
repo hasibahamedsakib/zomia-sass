@@ -1,4 +1,5 @@
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import SingleBlog from "../BlogList/SingleBlog";
 
 const BlogGrid = () => {
   return (
@@ -10,6 +11,10 @@ const BlogGrid = () => {
           </h1>
           <Breadcrumb text="Blog Grid" />
         </div>
+      </div>
+
+      <div className="Container grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 py-10 lg:py-20 gap-6">
+        <SingleBlog />
       </div>
     </>
   );
