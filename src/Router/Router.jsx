@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
-import OurOffer from "../Components/Our_Offer/OurOffer";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Service from "../Pages/Service/Service";
-
 import Team from "../Pages/Team/Team";
 import Faq from "../Pages/Faq/Faq";
+import Contact from "../Pages/Contact/Contact";
+import BlogList from "../Pages/BlogList/BlogList";
+import BlogGrid from "../Pages/BlogGrid/BlogGrid";
+import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +38,19 @@ const router = createBrowserRouter([
       },
       {
         path: "contact",
-        element: <OurOffer />,
+        element: <Contact />,
+      },
+      {
+        path: "blog_list",
+        element: <BlogList />,
+      },
+      {
+        path: "blog_grid",
+        element: <BlogGrid />,
+      },
+      {
+        path: "blog_details",
+        element: <BlogDetails />,
       },
     ],
   },

@@ -68,3 +68,17 @@ p {
     transform: rotate(360deg);
   }
 }
+
+/* move bg */
+
+.animation-move {
+  animation: MOVE-BG 3s infinite ease alternate;
+}
+@keyframes MOVE-BG {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(78px);
+  }
+}
