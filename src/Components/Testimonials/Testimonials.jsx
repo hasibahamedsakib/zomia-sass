@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Testimonials = () => {
   return (
     <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 px-2 lg:py-20 ">
-      <div className="Container flex items-center lg:flex-row flex-col justify-between  p-3 md:p-5">
+      <div className="Container flex items-center lg:flex-row flex-col-reverse justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
         <div className="flex-1 pb-10 md:pb-0">
           {/* content-1 */}
@@ -15,7 +15,7 @@ const Testimonials = () => {
             </div>
 
             <div className="lg:text-left ">
-              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+              <h3 className="text-lg sm:text-lg md:2xl font-semibold text-subTitle-0 pb-2">
                 Anowar, Zomia CEO
               </h3>
 
@@ -77,7 +77,7 @@ const Testimonials = () => {
           <section className="flex items-center ">
             <SectionTitle text="Testimonials" isBoth={false} />
           </section>
-          <h2 className="text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
             Zomia’s All Over The 23M+ Satisfied Customers
           </h2>
 

@@ -23,9 +23,11 @@ export default {
       },
       padding: {
         pxl: "30px 20px 15px 33px",
+        spxl: "15px 10px 7px 16px",
       },
       margin: {
         mxl: "0 50px 30px 0",
+        smxl: "0 25px 15px 0",
       },
     },
   },
