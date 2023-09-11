@@ -1,10 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../Home/Home";
-import About from "../Components/About_Us/About";
 import Main from "../Main/Main";
-import Description from "../Components/Description/Description";
-import DesktopApplications from "../Components/DesktopApplications/DesktopApplications";
 import OurOffer from "../Components/Our_Offer/OurOffer";
+import Home from "../Pages/Home/Home";
+import About from "../Pages/About/About";
+import Service from "../Pages/Service/Service";
+
+import Team from "../Pages/Team/Team";
+import Faq from "../Pages/Faq/Faq";
 
 const router = createBrowserRouter([
   {
@@ -22,12 +24,15 @@ const router = createBrowserRouter([
       },
       {
         path: "services",
-        element: (
-          <>
-            <Description />
-            <DesktopApplications />
-          </>
-        ),
+        element: <Service />,
+      },
+      {
+        path: "team",
+        element: <Team />,
+      },
+      {
+        path: "faq",
+        element: <Faq />,
       },
       {
         path: "contact",

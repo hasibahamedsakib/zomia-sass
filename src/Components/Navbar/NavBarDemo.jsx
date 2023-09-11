@@ -111,27 +111,27 @@ const NavBarDemo = () => {
                 <ul className="shadow-lg hidden group-hover:block rounded-sm bg-white text-black w-60 text-left transition-all duration-500  text-base ">
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
-                      <NavLink to="/about.html">ABOUT US</NavLink>
+                      <NavLink to="/about">ABOUT US</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
-                      <NavLink to="/service.html">SERVICE</NavLink>
+                      <NavLink to="/services">SERVICE</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
-                      <NavLink to="/team.html">TEAM MEMBER</NavLink>
+                      <NavLink to="/team">TEAM MEMBER</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
-                      <NavLink to="/contact.html">CONTACT</NavLink>
+                      <NavLink to="/contact">CONTACT</NavLink>
                     </li>
                   </div>
                   <div className="  hover:bg-purple-0 hover:text-white py-3 px-5 group">
                     <li className="hover:ml-3 duration-300 ">
-                      <NavLink to="/faq.html">FAQ</NavLink>
+                      <NavLink to="/faq">FAQ</NavLink>
                     </li>
                   </div>
                 </ul>
