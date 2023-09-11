@@ -7,7 +7,7 @@ const DesktopApplications = () => {
       <div className="Container flex items-center flex-col-reverse lg:flex-row-reverse justify-between p-3 md:p-5 ">
         {/* section image */}
         <div className="flex-1 pb-5 md:pb-0 pt-10 lg:pt-0">
-          <div className="aw-12/12 animation-bounce">
+          <div className="w-12/12 animation-bounce">
             <img src="/photo/Saas-Landing-8.png" className="" alt="" />
           </div>
         </div>

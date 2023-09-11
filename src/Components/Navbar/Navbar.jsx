@@ -2,8 +2,9 @@ import { Link, NavLink } from "react-router-dom";
 import useScrollPosition from "./useScrollPosition";
 import { FaBars, FaSearch } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
-
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Navbar = () => {
   // modal openar
   const [isOpen, setIsOpen] = useState(false);
@@ -17,9 +18,12 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
   return (
     <nav
-      className={` w-full lg:fixed   z-10  lg:px-10 lg:py-2  transition-all duration-300 ${navbarBgColor} `}
+      className={` w-full lg:fixed   z-10  lg:px-10 transition-all duration-300 ${navbarBgColor} `}
     >
       <div className="Container ">
         <div className="flex flex-col lg:flex-row items-center justify-between">
@@ -65,7 +69,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block`}
               to="/"
             >
               Home
@@ -76,7 +80,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block transition-all duration-300`}
               to="/about"
             >
               About
@@ -87,7 +91,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block transition-all duration-300`}
               to="/services"
             >
               Services
@@ -99,10 +103,30 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block transition-all duration-300 group relative`}
               to="/page"
             >
               Page
+              <ul
+                data-aos="fade-down-right"
+                className="absolute top-16 hidden group-hover:block rounded-sm p-4 bg-white text-black w-40 text-left transition-all duration-500 font-normal text-base delay-150"
+              >
+                <li className="hover:ml-3 duration-300">
+                  <NavLink to="/about.html">ABOUT US</NavLink>
+                </li>
+                <li className="hover:ml-3 duration-300">
+                  <NavLink to="/service.html">SERVICE</NavLink>
+                </li>
+                <li className="hover:ml-3 duration-300">
+                  <NavLink to="/team.html">TEAM MEMBER</NavLink>
+                </li>
+                <li className="hover:ml-3 duration-300">
+                  <NavLink to="/contact.html">CONTACT</NavLink>
+                </li>
+                <li className="hover:ml-3 duration-300">
+                  <NavLink to="/faq.html">FAQ</NavLink>
+                </li>
+              </ul>
             </NavLink>
             <NavLink
               className={`${({ isActive, isPending }) =>
@@ -110,7 +134,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block transition-all duration-300`}
               to="/blog"
             >
               Blog
@@ -121,7 +145,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active"
-                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                  : ""} lg:text-white border-b-2 lg:border-b-0 px-3 py-4 w-full block transition-all duration-300`}
               to="/contact"
             >
               Contact

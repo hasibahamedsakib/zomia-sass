@@ -6,12 +6,12 @@ const HeroSection = () => {
     <div className="bg-[url('/photo/hero-bg.jpg')] bg-center py-10 bg-cover h-[900px]">
       <div className="flex items-center lg:flex-row flex-col  p-3 md:p-5 Container py-5 lg:my-40 space-y-6 md:space-y-8 lg:space-y-0">
         {/* hero text */}
-        <div className="relative lg:-left-[60px] space-y-4 flex-1 text-white lg:w-[550px]">
-          <div className="flex space-x-4 items-center lg:w-[550px]">
+        <div className="relative lg:left-1 xl:-left-[60px] space-y-4 flex-1 text-white xl:w-[540px] w-11/12">
+          <div className="flex space-x-4 items-center md:11/12 xl:w-[540px]">
             <img src="/photo/star.png" alt="" />
             <p className="text-[17px] font-bold">WE ARE ZOMIA AGENCY</p>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-[65px] lg:leading-[70px] font-bold  leading-tight lg:w-[550px]">
+          <h1 className="text-3xl md:text-4xl lg:5xl xl:text-[65px] xl:leading-[70px] font-bold  leading-tight w-11/12 xl:w-[540px]">
             Make your life Easier width the Smart Sass
           </h1>
 
@@ -28,15 +28,15 @@ const HeroSection = () => {
         </div>
 
         {/* hero image */}
-        <div className="flex-1 ">
-          <div className="relative md:-left-[120px] lg:w-[800px] md:w-[600px]">
-            <div className="absolute hidden md:block -top-20 md:left-[295px] animation-bounce">
+        <div className=" ">
+          <div className="relative lg:left-[-25px] xl:-left-[75px] w-12/12  md:w-[600px] lg:w-[750px] xl-w-[0] ">
+            <div className="absolute hidden lg:block -top-20 md:left-[295px] animation-bounce">
               <img src="/photo/s3.png" alt="" />
             </div>
-            <div className="absolute hidden md:block md:-top-28 md:right-52 animation-spin">
+            <div className="absolute hidden lg:block md:-top-28 md:right-52 animation-spin">
               <img src="/photo/s4.png" alt="" />
             </div>
-            <div className="absolute hidden md:block md:top-0 md:right-2 animation-bounce">
+            <div className="absolute hidden lg:block md:top-0 md:right-2 animation-bounce">
               <img src="/photo/s5.png" alt="" />
             </div>
 
