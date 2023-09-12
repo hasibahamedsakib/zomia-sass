@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const WeAreWorking = () => {
   return (
-    <div className="Container pb-5 py-5  lg:py-16 p-3 md:p-5 text-center">
+    <div className="Container py-10 md:py-16 lg:py-20 p-3 md:p-5 text-center">
       {/* section heading  */}
       <div className="flex items-center flex-col space-y-4">
         <SectionTitle text="We Are Working" isBoth={true} />

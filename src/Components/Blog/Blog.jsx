@@ -5,12 +5,12 @@ import { FaRegComments } from "react-icons/fa";
 
 const Blog = () => {
   return (
-    <div className="bg-[#fafafa]  pb-5 py-5  lg:py-16 p-3 md:p-5 text-center">
+    <div className="bg-[#fafafa]  py-10 md:py-16 lg:py-20 p-3  text-center">
       <div className="Container">
         {/* section heading  */}
         <div className="flex items-center flex-col space-y-4 ">
           <SectionTitle text="Our Blog" isBoth={true} />
-          <h1 className="text-2xl md:text-4xl lg:text-[40px] text-subTitle-0 font-bold">
+          <h1 className="text-2xl md:text-4xl lg:text-[40px] text-subTitle-0 font-bold lg:leading-[1.2]">
             The Latest from our Blog
           </h1>
           <p className=" text-Gray-0 text-center ">

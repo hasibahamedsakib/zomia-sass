@@ -2,11 +2,11 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const OurProcess = () => {
   return (
-    <div className="Container pb-5 lg:py-16 p-3 md:p-5 text-center bg-[url('/photo/service-shape-bg.png')] bg-no-repeat bg-center">
+    <div className="Container pb-5 lg:py-20 p-3 md:p-5 text-center bg-[url('/photo/service-shape-bg.png')] bg-no-repeat bg-center">
       {/* section heading */}
       <div className="flex items-center flex-col space-y-4 ">
         <SectionTitle text="Our Process" isBoth={true} />
-        <h1 className="text-2xl md:text-4xl lg:text-5xl text-subTitle-0 font-bold">
+        <h1 className="text-2xl md:text-4xl lg:text-[40px] lg:leading-[1.2] text-subTitle-0 font-bold">
           How IT Works
         </h1>
         <p className=" text-Gray-0 text-center ">

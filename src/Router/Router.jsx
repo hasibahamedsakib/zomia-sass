@@ -10,6 +10,7 @@ import BlogList from "../Pages/BlogList/BlogList";
 import BlogGrid from "../Pages/BlogGrid/BlogGrid";
 import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import SignUpPage from "../Pages/SignupPage/SignupPage";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "blog_details",
         element: <BlogDetails />,
+      },
+      {
+        path: "login",
+        element: <SignUpPage />,
       },
     ],
   },

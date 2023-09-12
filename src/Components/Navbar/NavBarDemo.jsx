@@ -192,7 +192,10 @@ const NavBarDemo = () => {
               <FaSearch className=" group-hover:text-[#5a49f8] w-5 h-5 text-white " />
             </div>
 
-            <button className="btn btn-main">Sign Up</button>
+            <Link to="/login">
+              {" "}
+              <button className="btn btn-main">Sign Up</button>
+            </Link>
           </div>
         </div>
       </div>

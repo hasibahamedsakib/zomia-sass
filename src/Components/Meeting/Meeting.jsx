@@ -7,12 +7,12 @@ const Meeting = () => {
     <div className="bg-[url('/photo/bg.jpg')] bg-no-repeat bg-cover bg-center py-10 px-2 lg:py-0">
       <div className="Container py-5 lg:py-10 p-3 md:p-5 text-white flex items-center lg:flex-row flex-col justify-between">
         {/* Section title and description */}
-        <div className="space-y-4 flex-1">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl lg:leading-[70px] font-bold  leading-tight ">
-            Make your life Easier width the Smart Sass
+        <div className="space-y-4 xl:space-y-6 flex-1">
+          <h1 className="text-3xl md:text-4xl lg:text-[40px] lg:leading-[1.2] font-bold  leading-tight ">
+            Start spending less time on your meetings
           </h1>
 
-          <p className="text-base md:text-lg lg:text-xl pb-5">
+          <p className="text-base md:text-lg lg:text-xl pb-6">
             Continually morph intermandated synergy for fully the
             Phosfluorescently strategize done
           </p>

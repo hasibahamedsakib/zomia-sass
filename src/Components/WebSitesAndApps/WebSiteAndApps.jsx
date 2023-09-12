@@ -4,7 +4,7 @@ import { FaBullhorn } from "react-icons/fa";
 
 const WebSiteAndApps = () => {
   return (
-    <div className="bg-[#fafafa] py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
+    <div className="bg-[#fafafa] py-5 lg:py-20 p-5 md:p-0 md:py-10">
       <div className="Container flex items-center lg:flex-row flex-col justify-between p-3 md:p-5 ">
         {/* section image */}
         <div className="flex-1 pb-10 md:pb-0">
@@ -27,7 +27,7 @@ const WebSiteAndApps = () => {
 
         {/* Section title and description */}
 
-        <div className="space-y-4 flex-1 p-3 ">
+        <div className="space-y-4  flex-1 p-3 ">
           {/* Section Title */}
           <section className="flex items-center ">
             <SectionTitle text="Website & Apps" isBoth={false} />
@@ -36,7 +36,7 @@ const WebSiteAndApps = () => {
             Next Generation Depends On Softwares
           </h2>
 
-          <p className="text-lg text-Gray-0 pb-5 text-left">
+          <p className="text-lg text-Gray-0 pb-6 text-left">
             Energistically conceptualize clients-focused data and user-centric
             process Energistically communicate installed base web
           </p>

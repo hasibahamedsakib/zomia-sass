@@ -4,9 +4,9 @@ import { BsArrowRight } from "react-icons/bs";
 const HeroSection = () => {
   return (
     <div className="bg-[url('/photo/hero-bg.jpg')] bg-center py-10 bg-cover h-[900px]">
-      <div className="flex items-center lg:flex-row flex-col  p-3 md:p-5 Container py-5 lg:my-40 space-y-6 md:space-y-8 lg:space-y-0">
+      <div className="flex items-center lg:flex-row flex-col  p-3 md:p-5 Container py-5 lg:my-40 space-y-6 md:space-y-8 ">
         {/* hero text */}
-        <div className="relative lg:left-1 xl:-left-[60px] space-y-4 flex-1 text-white xl:w-[540px] w-11/12">
+        <div className="relative lg:left-1 xl:-left-[60px] space-y-3 sm:space-y-5 lg:space-y-6  flex-1 text-white xl:w-[540px] w-11/12">
           <div className="flex space-x-4 items-center md:11/12 xl:w-[540px]">
             <img src="/photo/star.png" alt="" />
             <p className="text-[17px] font-bold">WE ARE ZOMIA AGENCY</p>
@@ -15,7 +15,7 @@ const HeroSection = () => {
             Make your life Easier width the Smart Sass
           </h1>
 
-          <p className="text-base md:text-lg lg:text-xl pb-5">
+          <p className="text-base md:text-lg lg:text-xl pb-3 lg:pb-7">
             Continually morph intermandated synergy for fully the
             Phosfluorescently strategize done
           </p>
@@ -29,8 +29,8 @@ const HeroSection = () => {
 
         {/* hero image */}
         <div className=" ">
-          <div className="relative lg:left-[-25px] xl:-left-[75px] w-12/12  md:w-[600px] lg:w-[600px] xl-w-[0] ">
-            <div className="absolute hidden lg:block -top-20 md:left-[295px] animation-bounce">
+          <div className="relative lg:left-[-25px] xl:-left-[75px] w-12/12  md:w-[600px] lg:w-[600px] xl:w-[750px]  ">
+            <div className="absolute hidden lg:block -top-20  lg:left-[170px] xl:left-[295px] animation-bounce">
               <img src="/photo/s3.png" alt="" />
             </div>
             <div className="absolute hidden lg:block md:-top-28 md:right-52 animation-spin">

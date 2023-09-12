@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const DesktopApplications = () => {
   return (
-    <div className="py-5 lg:pt-20 lg:pb-10 p-5 md:p-0">
+    <div className="py-5 md:py-10 lg:py-16 p-5 md:p-0">
       <div className="Container flex items-center flex-col-reverse lg:flex-row-reverse justify-between p-3 md:p-5 ">
         {/* section image */}
         <div className="flex-1 pb-5 md:pb-0 pt-10 lg:pt-0">
@@ -12,12 +12,12 @@ const DesktopApplications = () => {
           </div>
         </div>
 
-        <div className="space-y-4 flex-1 p-3 ">
+        <div className="space-y-4 xl:space-y-5 flex-1 p-3 ">
           {/* Section Title and description */}
           <section className="flex items-center ">
             <SectionTitle text="Desktop Applications" isBoth={false} />
           </section>
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] md:leading-9 font-semibold text-title-0">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
             Get Maximum Customer of Any Business
           </h2>
 

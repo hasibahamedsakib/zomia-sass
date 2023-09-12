@@ -2,12 +2,12 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const OurOffer = () => {
   return (
-    <div className="bg-[#fafafa]  pb-5 py-5  lg:py-16 p-3 md:p-5 text-center">
+    <div className="bg-[#fafafa]  pb-5 py-10 md:py-16 xl:py-20 2xl:py-24 p-3 md:p-5 text-center">
       <div className="Container">
         {/* section heading */}
-        <div className="flex items-center flex-col space-y-4 ">
+        <div className="flex items-center flex-col space-y-4 xl:space-y-6">
           <SectionTitle text="What We Offer" isBoth={true} />
-          <h1 className="text-2xl md:text-4xl lg:text-5xl text-subTitle-0 font-bold">
+          <h1 className="text-2xl md:text-4xl lg:text-[40px] text-subTitle-0 font-bold">
             Let’s Check Our Services
           </h1>
           <p className=" text-Gray-0 text-center ">

@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   return (
-    <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 px-2 lg:py-20 ">
+    <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 p-5 lg:py-20 ">
       <div className="Container flex items-center lg:flex-row flex-col-reverse justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
         <div className="flex-1 pb-10 md:pb-0">
           {/* content-1 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-13.png" alt="" className="w-full" />
             </div>
@@ -72,12 +72,12 @@ const Testimonials = () => {
 
         {/* Section title and description */}
 
-        <div className="space-y-5 flex-1 p-3">
+        <div className="space-y-5 xl:space-y-7 flex-1 p-3">
           {/* Section Title */}
           <section className="flex items-center ">
             <SectionTitle text="Testimonials" isBoth={false} />
           </section>
-          <h2 className="text-xl sm:text-xl sm:text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
+          <h2 className="text-xl sm:text-xl  md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
             Zomia’s All Over The 23M+ Satisfied Customers
           </h2>
 
