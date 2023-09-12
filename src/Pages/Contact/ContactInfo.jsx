@@ -19,17 +19,17 @@ const ContactInfo = () => {
             {/* col-1 */}
             <div className="col-span-6 md:col-span-3 lg:col-span-2 space-y-6">
               {/* sidebar*/}
-              <div className="w-full p-8 shadow-hblg space-y-4 rounded-md bg-[#7b1bd7]">
+              <div className="w-full py-8 px-6  shadow-hblg space-y-4 rounded-md bg-[#7b1bd7]">
                 <div>
-                  <div className="my-3 lg:my-6 space-y-3 lg:space-y-5">
+                  <div className="my-3 lg:py-6 space-y-3 lg:space-y-5">
                     <div className="flex items-center space-x-4">
-                      <div className="  p-3 rounded-full">
+                      <div className=" p-3 rounded-full">
                         <SlLocationPin className="text-white w-6 h-6 lg:h-10 lg:w-10" />{" "}
                       </div>
                       <div className="space-y-1">
                         <h1 className="text-xl font-bold">Our Location</h1>
-                        <p className="text-base">29 Street, Melbourne City</p>
-                        <p className="text-base">Victoria, Australia</p>
+                        <p className="text-[15px]">29 Street, Melbourne City</p>
+                        <p className="text-[15px]">Victoria, Australia</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
@@ -38,8 +38,8 @@ const ContactInfo = () => {
                       </div>
                       <div className="space-y-1">
                         <h1 className="text-xl font-bold">Quick Contact</h1>
-                        <p className="text-base">Example@gmail.com</p>
-                        <p className="text-base">example1@gmail.com</p>
+                        <p className="text-[15px]">Example@gmail.com</p>
+                        <p className="text-[15px]">example1@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
@@ -48,8 +48,8 @@ const ContactInfo = () => {
                       </div>
                       <div className="space-y-1">
                         <h1 className="text-xl font-bold">Call us Now</h1>
-                        <p className="text-base">Office: +1 226-507-0468</p>
-                        <p className="text-base">+012 (345) 678 99</p>
+                        <p className="text-[15px]">Office: +1 226-507-0468</p>
+                        <p className="text-[15px]">+012 (345) 678 99</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
@@ -58,8 +58,8 @@ const ContactInfo = () => {
                       </div>
                       <div className="space-y-1">
                         <h1 className="text-xl font-bold">Opening Hours</h1>
-                        <p className="text-base">From Monday – Friday.</p>
-                        <p className="text-base">8 am to 7 pm</p>
+                        <p className="text-[15px]">From Monday – Friday.</p>
+                        <p className="text-[15px]">8 am to 7 pm</p>
                       </div>
                     </div>
                   </div>
@@ -68,11 +68,11 @@ const ContactInfo = () => {
             </div>
             {/* col-2 */}
             <div className="col-span-6 md:col-span-3 lg:col-span-4 space-y-4">
-              <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold text-subTitle-0">
+              <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold text-subTitle-0 mb-2">
                 Get in Touch
               </h4>
               <form className=" ">
-                <div className="items-center gap-5  grid grid-cols-1 md:grid-cols-2">
+                <div className="items-center gap-3 lg:gap-5  grid grid-cols-1 md:grid-cols-2">
                   <input
                     placeholder="Name"
                     type="text"
@@ -95,14 +95,14 @@ const ContactInfo = () => {
                   />
                 </div>
                 <textarea
-                  className="px-5 mt-6 py-[5px] border-none w-full bg-[#eeecfe] rounded-md text-[#333] focus:outline-none placeholder:text-[#333] resize-none"
+                  className="px-5 md:mt-3 lg:mt-6 py-[5px] border-none w-full bg-[#eeecfe] rounded-md text-[#333] focus:outline-none placeholder:text-[#333] resize-none"
                   name=""
                   id=""
-                  cols="30"
+                  cols="26"
                   rows="10"
                   placeholder="Your Message"
                 ></textarea>
-                <button className="mt-3 btn btn-secondary rounded-none w-full">
+                <button className="mt-4 btn btn-secondary rounded-none w-full">
                   Send Message
                 </button>
               </form>
