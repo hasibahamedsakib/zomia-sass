@@ -9,8 +9,8 @@ const Testimonials = () => {
         {/* Testimonials Content */}
         <div className="flex-1 pb-10 md:pb-0">
           {/* content-1 */}
-          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
-            <div className="w-32">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+            <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-13.png" alt="" className="w-full" />
             </div>
 
@@ -24,13 +24,13 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className="absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-5">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>
           {/* content-2 */}
-          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
-            <div className="w-32">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
+            <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-12.png" alt="" className="w-full" />
             </div>
 
@@ -44,13 +44,13 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className="absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-5">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>
           {/* content-3 */}
-          <div className="relative flex flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
-            <div className="w-32">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+            <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-14.png" alt="" className="w-full" />
             </div>
 
@@ -64,7 +64,7 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className="absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-5">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>
@@ -77,7 +77,7 @@ const Testimonials = () => {
           <section className="flex items-center ">
             <SectionTitle text="Testimonials" isBoth={false} />
           </section>
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
+          <h2 className="text-xl sm:text-xl sm:text-2xl md:text-3xl lg:text-[40px] lg:leading-[1.2] font-semibold text-title-0">
             Zomia’s All Over The 23M+ Satisfied Customers
           </h2>
 

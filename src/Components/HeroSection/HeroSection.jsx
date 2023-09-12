@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         {/* hero image */}
         <div className=" ">
-          <div className="relative lg:left-[-25px] xl:-left-[75px] w-12/12  md:w-[600px] lg:w-[750px] xl-w-[0] ">
+          <div className="relative lg:left-[-25px] xl:-left-[75px] w-12/12  md:w-[600px] lg:w-[600px] xl-w-[0] ">
             <div className="absolute hidden lg:block -top-20 md:left-[295px] animation-bounce">
               <img src="/photo/s3.png" alt="" />
             </div>

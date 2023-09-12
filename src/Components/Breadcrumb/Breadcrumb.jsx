@@ -10,7 +10,7 @@ const Breadcrumb = ({ text }) => {
         <ol className="inline-flex items-center space-x-1 md:space-x-3 justify-center">
           <li className="inline-flex items-center">
             <Link
-              to="#"
+              to="/"
               className="inline-flex items-center text-sm font-medium  "
             >
               <HiHome className="w-4 h-4 text-white mx-1" />

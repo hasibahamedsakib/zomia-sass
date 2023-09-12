@@ -19,7 +19,7 @@ const WebSiteAndApps = () => {
             <div className="absolute lg:left-48 top-0 animation-bounce z-[2] w-11/12 hidden md:block">
               <img src="/photo/Saas-Landing-5.png" alt="" />
             </div>
-            <div className="absolute  top-10 animation-spin w-12/12">
+            <div className="absolute hidden lg:block  top-10 animation-spin w-12/12">
               <img src="/photo/Saas-Landing-7.png" className="" alt="" />
             </div>
           </div>
@@ -32,7 +32,7 @@ const WebSiteAndApps = () => {
           <section className="flex items-center ">
             <SectionTitle text="Website & Apps" isBoth={false} />
           </section>
-          <h2 className="text-2xl md:text-3xl lg:text-[40px] leading-9 font-semibold text-title-0">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] md:leading-9 font-semibold text-title-0">
             Next Generation Depends On Softwares
           </h2>
 

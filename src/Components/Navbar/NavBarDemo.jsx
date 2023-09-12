@@ -41,7 +41,9 @@ const NavBarDemo = () => {
           </div>
           {/* small screen size */}
           <div className="px-3 w-full lg:hidden flex justify-between text-white bg-[#5f4ff8] p-3">
-            <h2 className="text-2xl uppercase font-semibold">Zomia</h2>
+            <Link to="/">
+              <h2 className="text-2xl uppercase font-semibold">Zomia</h2>
+            </Link>
             <button
               className="lg:hidden block focus:outline-none "
               onClick={toggleNavbar}

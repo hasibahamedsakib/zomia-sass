@@ -25,7 +25,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Zomia Performance Very Based Saas.
             </h5>
@@ -61,7 +61,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Overcame breeding or my concerns removing
             </h5>
@@ -98,7 +98,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Made neat an on be gave shoe nugh tore
             </h5>
@@ -134,7 +134,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Zomia Performance Very Based Saas.
             </h5>
@@ -170,7 +170,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Made neat an on be gave shoe nugh tore
             </h5>
@@ -206,7 +206,7 @@ const SingleBlog = () => {
         </div>
 
         <div className="p-6 text-left">
-          <Link to="#">
+          <Link to="/blog_details">
             <h5 className="mb-2 text-xl md:text-2xl font-bold tracking-tight hover:text-purple-0 transition-all duration-300 text-title-0">
               Overcame breeding or my concerns removing
             </h5>

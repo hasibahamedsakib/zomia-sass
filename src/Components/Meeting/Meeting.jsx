@@ -34,7 +34,7 @@ const Meeting = () => {
                 className=" align-middle z-50 w-11/12 md:12/12 lg:w-[400px] ml-7 mt-6 md:ml-16 md:mt-0"
               />
             </div>
-            <div className="absolute  top-10 animation-spin w-11/12 md:w-12/12 py-5">
+            <div className="absolute  top-10 animation-spin w-11/12 md:w-12/12 py-5 hidden lg:block">
               <img src="/photo/circle.png" className="" alt="" />
             </div>
           </div>

@@ -17,7 +17,7 @@ const DesktopApplications = () => {
           <section className="flex items-center ">
             <SectionTitle text="Desktop Applications" isBoth={false} />
           </section>
-          <h2 className="text-2xl md:text-3xl lg:text-[40px] leading-9 font-semibold text-title-0">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[40px] md:leading-9 font-semibold text-title-0">
             Get Maximum Customer of Any Business
           </h2>
 
