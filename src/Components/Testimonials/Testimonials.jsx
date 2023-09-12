@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   return (
-    <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 p-5 lg:py-20 ">
+    <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 px-5 lg:py-20 ">
       <div className="Container flex items-center lg:flex-row flex-col-reverse justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
-        <div className="flex-1 ">
+        <div className="flex-1 md:pl-5 lg:pl-6 ">
           {/* content-1 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-13.png" alt="" className="w-full" />
             </div>
 
             <div className="lg:text-left ">
-              <h3 className="text-lg sm:text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+              <h3 className="text-base sm:text-lg md:2xl font-semibold text-subTitle-0 pb-2">
                 Anowar, Zomia CEO
               </h3>
 
@@ -30,13 +30,13 @@ const Testimonials = () => {
           </div>
 
           {/* content-2 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-12.png" alt="" className="w-full" />
             </div>
 
             <div>
-              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+              <h3 className="text-base md:2xl font-semibold text-subTitle-0 pb-2">
                 MD Atikul,Admin
               </h3>
 
@@ -51,13 +51,13 @@ const Testimonials = () => {
           </div>
 
           {/* content-3 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-14.png" alt="" className="w-full" />
             </div>
 
             <div>
-              <h3 className="text-lg md:2xl font-semibold text-subTitle-0 pb-2">
+              <h3 className="text-base md:2xl font-semibold text-subTitle-0 pb-2">
                 Benatha,Manager
               </h3>
 

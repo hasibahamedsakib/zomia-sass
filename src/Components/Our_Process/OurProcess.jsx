@@ -19,7 +19,7 @@ const OurProcess = () => {
       <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 pt-10 lg:gap-16">
         {/* card one */}
 
-        <div className="relative p-3  lg:p-5 md:before:bg-[url('/photo/Saas-Landing-3.png')] md:before:w-60 before:h-10 before:bg-no-repeat md:before:-right-32 before:top-20 before:absolute">
+        <div className="relative p-3  lg:p-5 md:before:bg-[url('/photo/Saas-Landing-3.png')] md:before:w-60 before:h-10 before:bg-no-repeat md:before:-right-32 lg:before:-right-40 before:top-20 before:absolute">
           <h2 className="bg-[url('/photo/Saas-Landing.png')] bg-no-repeat bg-center text-white text-2xl md:text-4xl lg:text-5xl p-10 font-bold">
             01
           </h2>

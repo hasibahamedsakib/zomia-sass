@@ -5,9 +5,8 @@ const FooterForm = () => {
   return (
     <div className="mx-10 sm:mx-20 md:mx-6 lg:mx-10 flex flex-col md:flex-row items-center justify-between bg-white px-5 md:px-10 py-8 rounded-lg space-y-4 lg:space-y-0">
       <div className=" text-title-0">
-        <h1 className="text3xl md:text-2xl lg:text-[27px] font-bold">
-          Subscribe Our Newsletter To <br />
-          Get More Updates
+        <h1 className="text-[15px] sm:text-xl md:text-2xl lg:text-[27px] font-bold">
+          Subscribe Our Newsletter To Get More Updates
         </h1>
       </div>
       <div className=" ">

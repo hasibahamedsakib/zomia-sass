@@ -32,15 +32,19 @@ const Blog = () => {
             </Link>
 
             <div className="flex justify-between items-center  py-5 mx-5 border-b-2 ">
-              <span className="flex items-center space-x-2  ">
-                <BiCalendar className="text-purple-0" />
-                <p className="hover:text-purple-0">07, March, 2023</p>
+              <span className="flex items-center space-x-1 sm:space-x-1 md:  ">
+                <BiCalendar className="w-3 h-3 sm:w-5 sm:h-5 text-purple-0" />
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  07, March, 2023
+                </p>
               </span>
               <span className="w-[6px] h-[6px] bg-slate-400 rounded-full"></span>
 
-              <span className="flex items-center space-x-2  ">
+              <span className="flex items-center space-x-1 sm:space-x-2  ">
                 <FaRegComments className="text-purple-0" />
-                <p className="hover:text-purple-0">Comment (5)</p>
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  Comment (5)
+                </p>
               </span>
             </div>
 
@@ -74,15 +78,19 @@ const Blog = () => {
             </Link>
 
             <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
-              <span className="flex items-center space-x-2  ">
-                <BiCalendar className="text-purple-0" />
-                <p className="hover:text-purple-0">07, March, 2023</p>
+              <span className="flex items-center space-x-1 sm:space-x-2  ">
+                <BiCalendar className="w-3 h-3 sm:w-5 sm:h-5 text-purple-0" />
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  07, March, 2023
+                </p>
               </span>
               <span className="w-[6px] h-[6px] bg-slate-400 rounded-full"></span>
 
-              <span className="flex items-center space-x-2  ">
+              <span className="flex items-center space-x-1 sm:space-x-2  ">
                 <FaRegComments className="text-purple-0" />
-                <p className="hover:text-purple-0">Comment (5)</p>
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  Comment (5)
+                </p>
               </span>
             </div>
 
@@ -116,15 +124,19 @@ const Blog = () => {
             </Link>
 
             <div className="flex justify-between items-center py-5 mx-5 border-b-2 ">
-              <span className="flex items-center space-x-2">
-                <BiCalendar className="text-purple-0" />
-                <p className="hover:text-purple-0">07, March, 2023</p>
+              <span className="flex items-center space-x-1 md:space-x-2">
+                <BiCalendar className="w-3 h-3 sm:w-5 sm:h-5 text-purple-0" />
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  07, March, 2023
+                </p>
               </span>
               <span className="w-[6px] h-[6px] bg-slate-400 rounded-full"></span>
 
-              <span className="flex items-center space-x-2  ">
-                <FaRegComments className="text-purple-0" />
-                <p className="hover:text-purple-0">Comment (5)</p>
+              <span className="flex items-center space-x-1 sm:space-x-1 md:space-x-2  ">
+                <FaRegComments className="text-purple-0 w-3 h-3 sm:w-5 sm:h-5" />
+                <p className="hover:text-purple-0 text-sm sm:text-base">
+                  Comment (5)
+                </p>
               </span>
             </div>
 
