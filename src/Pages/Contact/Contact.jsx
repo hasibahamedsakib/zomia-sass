@@ -1,4 +1,6 @@
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import CarouselSlider from "../../Components/OwlCarusal/OwlCarousel";
+import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
@@ -11,6 +13,10 @@ const Contact = () => {
           <Breadcrumb text="Contact" />
         </div>
       </div>
+      <div className="lg:mb-[700px]">
+        <ContactInfo />
+      </div>
+      <CarouselSlider />
     </>
   );
 };
