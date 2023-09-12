@@ -60,7 +60,9 @@ const FooterContent = () => {
       </div>
       {/* cols two */}
       <div className="lg:ml-2">
-        <h5 className="text-2xl font-bold">Our Services</h5>
+        <h5 className="text-lg sm:text-xl md:text-2xl font-bold">
+          Our Services
+        </h5>
 
         <div className="my-3 lg:my-6">
           <ul className="font-semibold space-y-3">
@@ -117,7 +119,9 @@ const FooterContent = () => {
       </div>
       {/* cols three */}
       <div className="">
-        <h5 className="text-2xl font-bold">Quick Links</h5>
+        <h5 className="text-lg sm:text-xl md:text-2xl font-bold">
+          Quick Links
+        </h5>
 
         <div className="my-3 lg:my-6">
           <ul className="font-semibold space-y-3">
@@ -177,7 +181,7 @@ const FooterContent = () => {
       </div>
       {/* cols four */}
       <div className="">
-        <h5 className="text-2xl font-bold">
+        <h5 className="text-lg sm:text-xl md:text-2xl font-bold">
           Feel Free to Contact Us! Say Hello
         </h5>
 
@@ -187,8 +191,8 @@ const FooterContent = () => {
               <IoLocationSharp className="text-white  h-5 w-5" />{" "}
             </div>
             <div>
-              <h1 className="text-xl font-bold">Address</h1>
-              <p className="text-base">55 Main Street, New York</p>
+              <h1 className="text-lg md:text-xl font-bold">Address</h1>
+              <p className=" text-sm sm:text-base">55 Main Street, New York</p>
             </div>
           </div>
           <div className="flex items-center space-x-4">
@@ -196,8 +200,8 @@ const FooterContent = () => {
               <FaRegEnvelopeOpen className="text-white  h-5 w-5" />{" "}
             </div>
             <div>
-              <h1 className="text-xl font-bold">Email Us</h1>
-              <p className="text-base">Example@gmail.com</p>
+              <h1 className="text-lg sm:text-xl font-bold">Email Us</h1>
+              <p className="text-sm sm:text-base">Example@gmail.com</p>
             </div>
           </div>
           <div className="flex items-center space-x-4">
@@ -205,8 +209,8 @@ const FooterContent = () => {
               <IoIosCall className="text-white  h-5 w-5" />{" "}
             </div>
             <div>
-              <h1 className="text-xl font-bold">Phone Us</h1>
-              <p className="text-base">+012 (345) 678 99</p>
+              <h1 className="text-lg sm:text-xl font-bold">Phone Us</h1>
+              <p className="text-sm sm:text-base">+012 (345) 678 99</p>
             </div>
           </div>
         </div>

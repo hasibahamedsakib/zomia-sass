@@ -4,7 +4,7 @@ import SingleBlogDescription from "./SingleBlogDescription";
 
 const MoreDetails = () => {
   return (
-    <div className="Container py-10 px-3 lg:py-20">
+    <div className="Container px-5 py-10 md:py-16 lg:py-20">
       <div className="grid grid-cols-6 gap-6">
         {/* All Blogs are Here */}
         <div className="col-span-6 md:col-span-3 lg:col-span-4 space-y-4">

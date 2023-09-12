@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 p-5 lg:py-20 ">
       <div className="Container flex items-center lg:flex-row flex-col-reverse justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
-        <div className="flex-1 pb-10 md:pb-0">
+        <div className="flex-1 ">
           {/* content-1 */}
           <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
@@ -24,10 +24,11 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className=" hidden sm:block absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-7">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>
+
           {/* content-2 */}
           <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-6 hover:left-3 lg:-left-[10px] transition-all duration-500 lg:hover:-left-[0px]">
             <div className="w-20 sm:w-24 md:w-32">
@@ -44,10 +45,11 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className=" hidden sm:block absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-7">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>
+
           {/* content-3 */}
           <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
@@ -64,7 +66,7 @@ const Testimonials = () => {
                 expanded”
               </p>
             </div>
-            <div className=" hidden sm:block absolute top-6 right-5">
+            <div className=" hidden sm:block absolute top-6 right-7">
               <BsTwitter className=" w-6 h-6 text-[#1da1f2]" />
             </div>
           </div>

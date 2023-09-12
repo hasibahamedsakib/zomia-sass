@@ -3,7 +3,7 @@ import SectionTitle from "../../Components/SectionTitle/SectionTitle";
 
 const FaqContent = () => {
   return (
-    <div className="Container  lg:py-16 p-3 md:p-5">
+    <div className="Container py-10 md:py-16 lg:py-20 p-3 md:p-5">
       {/* section heading  */}
       <div className="flex items-center flex-col space-y-4 ">
         <SectionTitle text="HAVE ANY QUESTIONS" isBoth={true} />

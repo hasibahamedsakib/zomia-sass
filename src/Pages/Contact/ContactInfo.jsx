@@ -95,7 +95,7 @@ const ContactInfo = () => {
                   />
                 </div>
                 <textarea
-                  className="px-5 md:mt-3 lg:mt-6 py-[5px] border-none w-full bg-[#eeecfe] rounded-md text-[#333] focus:outline-none placeholder:text-[#333] resize-none"
+                  className="px-5 mt-3 md:mt-4 lg:mt-6 py-[5px] border-none w-full bg-[#eeecfe] rounded-md text-[#333] focus:outline-none placeholder:text-[#333] resize-none"
                   name=""
                   id=""
                   cols="26"

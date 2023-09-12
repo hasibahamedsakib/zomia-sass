@@ -13,8 +13,9 @@ const Team = () => {
           <Breadcrumb text="Team Member" />
         </div>
       </div>
+      {/* Team  */}
 
-      {/* Out team */}
+      {/* meet Our team */}
       <MeetOurTeam />
 
       <CarouselSlider />

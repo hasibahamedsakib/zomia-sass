@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FooterForm = () => {
   return (
-    <div className="mx-2 md:mx-6 lg:mx-10 flex flex-col md:flex-row items-center justify-between bg-white px-10 py-8 rounded-lg space-y-4 lg:space-y-0">
+    <div className="mx-10 sm:mx-20 md:mx-6 lg:mx-10 flex flex-col md:flex-row items-center justify-between bg-white px-5 md:px-10 py-8 rounded-lg space-y-4 lg:space-y-0">
       <div className=" text-title-0">
         <h1 className="text3xl md:text-2xl lg:text-[27px] font-bold">
           Subscribe Our Newsletter To <br />
@@ -15,7 +15,7 @@ const FooterForm = () => {
           <input
             placeholder="Enter Your Email"
             type="text"
-            className=" px-5 py-[5px] w-[150px] md:w-[220px] lg:w-[320px] h-10 md:h-14 text-sm md:text-base bg-[#EEECFE] rounded-md text-[#333] focus:outline-none placeholder:text-[#333]"
+            className=" px-5 py-[5px] w-[100px] sm:w-[150px] md:w-[220px] lg:w-[320px] h-10 md:h-14 text-sm md:text-base bg-[#EEECFE] rounded-md text-[#333] focus:outline-none placeholder:text-[#333]"
           />
 
           <Link to="/">

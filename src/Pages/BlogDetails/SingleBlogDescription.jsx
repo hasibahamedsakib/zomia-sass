@@ -11,9 +11,9 @@ import { Link } from "react-router-dom";
 
 const SingleBlogDescription = () => {
   return (
-    <div>
+    <div className="">
       {/* Single Blog description */}
-      <div className="max-w-sm mx-auto md:max-w-fit  bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg">
+      <div className="max-w-sm mx-auto md:max-w-fit  bg-white border border-gray-200 rounded-lg  transition-all duration-500 ease-in-out shadow-blg  hover:shadow-hblg ">
         <Link to="#">
           <img className="rounded-t-lg w-full" src="/photo/blog1.png" alt="" />
         </Link>
@@ -87,44 +87,44 @@ const SingleBlogDescription = () => {
         <div className="px-6 pt-3 pb-6">
           <hr />
           <div className="py-4">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-2 md:space-x-4">
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#" className="">
                   {" "}
-                  <FaFacebookF className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <FaFacebookF className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
 
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#">
                   {" "}
-                  <FaTwitter className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <FaTwitter className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
 
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#">
                   {" "}
-                  <FaPinterestP className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <FaPinterestP className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
 
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#">
                   {" "}
-                  <FaInstagram className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <FaInstagram className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#">
                   {" "}
-                  <FaLinkedinIn className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <FaLinkedinIn className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
               <li className=" hover:bg-slateBlue-0 bg-white group transition-all duration-300 p-2 rounded-lg border">
                 <Link to="#">
                   {" "}
-                  <BiLogoReddit className="group-hover:text-white text-subTitle-0 h-5 w-5" />{" "}
+                  <BiLogoReddit className="group-hover:text-white text-subTitle-0 w-4 h-4 sm:h-5 sm:w-5" />{" "}
                 </Link>
               </li>
             </ul>

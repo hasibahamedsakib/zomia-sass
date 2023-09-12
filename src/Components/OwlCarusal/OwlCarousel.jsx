@@ -71,7 +71,7 @@ const responsive = {
 };
 const CarouselSlider = () => {
   return (
-    <div className="Container py-20 ">
+    <div className="Container py-10 md:py-20 ">
       <div className="px-20">
         <AliceCarousel responsive={responsive} mouseTracking items={items} />
       </div>

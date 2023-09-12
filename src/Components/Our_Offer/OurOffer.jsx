@@ -18,7 +18,7 @@ const OurOffer = () => {
         {/* Section  card Content */}
         <div className="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 pt-10 lg:pt-20 gap-6">
           {/* card one */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff6.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f1.png" className="" alt="" />
             </div>
@@ -33,7 +33,7 @@ const OurOffer = () => {
             </div>
           </div>
           {/* card two */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff5.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f2.png" className="" alt="" />
             </div>
@@ -52,7 +52,7 @@ const OurOffer = () => {
                   Replaceable card 2. When if needed..!!
                   `````````````````````````````````*/}
 
-          {/* <div className="relative rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center h-[300px] flex flex-col items-center">
+          {/* <div className="relative rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center h-[300px] flex flex-col items-center">
             <div className=" text-center">
               <img
                 src="/photo/ff6.png"
@@ -75,7 +75,7 @@ const OurOffer = () => {
           </div> */}
 
           {/* card three */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff3.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f3.png" className="" alt="" />
             </div>
@@ -90,7 +90,7 @@ const OurOffer = () => {
           </div>
 
           {/* card four */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff1.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f4.png" className="" alt="" />
             </div>
@@ -105,7 +105,7 @@ const OurOffer = () => {
           </div>
 
           {/* card five */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff2.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f1.png" className="" alt="" />
             </div>
@@ -119,7 +119,7 @@ const OurOffer = () => {
             </div>
           </div>
           {/* card sixth */}
-          <div className="rounded-lg lg:p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
+          <div className="rounded-lg p-5 bg-white hover:shadow-3xl transition-all duration-500 ease-in-out text-center ">
             <div className="bg-[url('/photo/ff6.png')] bg-no-repeat bg-center p-10 flex items-center justify-center  mx-auto rounded-full">
               <img src="/photo/f6.png" className="" alt="" />
             </div>

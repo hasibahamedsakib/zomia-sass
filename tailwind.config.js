@@ -22,7 +22,7 @@ export default {
         hblg: "0 2px 4px #0003",
       },
       padding: {
-        pxl: "30px 20px 15px 33px",
+        pxl: "30px 33px 15px 33px",
         spxl: "15px 10px 7px 16px",
       },
       margin: {

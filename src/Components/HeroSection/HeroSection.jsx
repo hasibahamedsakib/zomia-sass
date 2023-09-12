@@ -15,7 +15,7 @@ const HeroSection = () => {
             Make your life Easier width the Smart Sass
           </h1>
 
-          <p className="text-base md:text-lg lg:text-xl pb-3 lg:pb-7">
+          <p className="text-base md:text-lg lg:text-xl pb-5 md:pb-6 lg:pb-8">
             Continually morph intermandated synergy for fully the
             Phosfluorescently strategize done
           </p>
