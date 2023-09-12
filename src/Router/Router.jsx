@@ -9,12 +9,13 @@ import Contact from "../Pages/Contact/Contact";
 import BlogList from "../Pages/BlogList/BlogList";
 import BlogGrid from "../Pages/BlogGrid/BlogGrid";
 import BlogDetails from "../Pages/BlogDetails/BlogDetails";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
-    errorElement: <>Error is hear</>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
