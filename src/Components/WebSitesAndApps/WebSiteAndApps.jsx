@@ -41,8 +41,8 @@ const WebSiteAndApps = () => {
             process Energistically communicate installed base web
           </p>
 
-          <div className="md:flex md:justify-between items-center lg:block lg:space-y-6 md:gap-3 lg:gap-0 pb-5 md:pb-0">
-            <div className="flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0 items-center lg:items-top text-lg ">
+          <div className="md:flex md:justify-between items-center lg:block space-y-6 md:gap-3 lg:gap-0 pb-5 md:pb-0">
+            <div className=" flex flex-col lg:flex-row gap-2 space-x-4 space-y-3 lg:space-y-0 items-center lg:items-top text-lg ">
               <FaBullhorn className="w-10 h-10 text-purple-0" />
 
               <div className="text-center lg:text-left ">

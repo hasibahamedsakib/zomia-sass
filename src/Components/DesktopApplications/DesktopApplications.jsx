@@ -26,7 +26,7 @@ const DesktopApplications = () => {
             process energetically communicate installed base web
           </p>
           {/* Section  content */}
-          <div className="space-y-4 md:space-y-0 pb-5 md:flex md:justify-evenly items-center lg:block lg:space-y-6 md:gap-3 lg:gap-0 md:pb-0">
+          <div className="space-y-6 pb-5 md:flex md:justify-evenly items-center lg:block lg:space-y-6 md:gap-3 lg:gap-0 md:pb-0">
             <div className="group flex flex-col lg:flex-row gap-2 space-x-3 space-y-3 lg:space-y-0 items-center lg:items-start lg:items-top text-lg ">
               <BsFillCheckCircleFill className="w-6 lg:w-7 h-6 lg:h-7 text-purple-0 group-hover:text-[#ff930e] transition-all duration-300 lg:mt-2 p-[2px]" />
 

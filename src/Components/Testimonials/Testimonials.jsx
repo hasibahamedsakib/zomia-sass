@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className="bg-[url('/photo/map-2.jpg')] bg-no-repeat bg-cover bg-center py-10 px-5 lg:py-20 ">
       <div className="Container flex items-center lg:flex-row flex-col-reverse justify-between  p-3 md:p-5">
         {/* Testimonials Content */}
-        <div className="flex-1 md:pl-5 lg:pl-6 ">
+        <div className="flex-1 md:pl-5 ">
           {/* content-1 */}
           <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">

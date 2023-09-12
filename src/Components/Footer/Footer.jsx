@@ -3,7 +3,7 @@ import FooterForm from "./FooterForm";
 
 const Footer = () => {
   return (
-    <footer className="bg-[url('/photo/footer-img.png')] bg-no-repeat pt-20 pb-4 md:pt-[120px] lg:pt-[165px] lg:pb-[20px] bg-center bg-cover ">
+    <footer className="bg-[url('/photo/footer-img.png')] bg-no-repeat pt-20 pb-4 md:pt-[120px] lg:pt-[165px] lg:pb-[20px] bg-center bg-cover">
       <div className="Container">
         <FooterForm />
         <FooterContent />
