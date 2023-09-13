@@ -9,7 +9,7 @@ const Testimonials = () => {
         {/* Testimonials Content */}
         <div className="flex-1 md:pl-5 ">
           {/* content-1 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 mt-10 lg:mt-0 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[55px] 2xl:-left-[70px] transition-all duration-500 lg:hover:-left-[40px] 2xl:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-13.png" alt="" className="w-full" />
             </div>
@@ -51,7 +51,7 @@ const Testimonials = () => {
           </div>
 
           {/* content-3 */}
-          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[70px] transition-all duration-500 lg:hover:-left-[50px]">
+          <div className="relative flex flex-col sm:flex-row gap-2 space-x-3 space-y-3 md:space-y-0 items-center  items-top text-lg bg-white shadow-bxl rounded-md p-pxl m-mxl left-10 hover:left-5 lg:-left-[55px] 2xl:-left-[70px] transition-all duration-500 lg:hover:-left-[40px] 2xl:hover:-left-[50px]">
             <div className="w-20 sm:w-24 md:w-32">
               <img src="/photo/Saas-Landing-14.png" alt="" className="w-full" />
             </div>

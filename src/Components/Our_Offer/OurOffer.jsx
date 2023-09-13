@@ -27,7 +27,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 Digital Marketing
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
@@ -42,7 +42,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 Video Chat Website
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
@@ -83,7 +83,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 Mobile Application
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
@@ -98,7 +98,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 Graphic Design
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
@@ -113,7 +113,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 SEO Tools Developed
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
@@ -127,7 +127,7 @@ const OurOffer = () => {
               <h2 className="text-xl md:text-2xl font-bold text-subTitle-0 hover:text-purple-0 transition-all duration-300">
                 Database Design
               </h2>
-              <p className="text-Gray-0 text-center text-base">
+              <p className="text-Gray-0 text-center text-base sm:px-20 md:px-0">
                 Proactively unleash end ends reward relationships through done
               </p>
             </div>
